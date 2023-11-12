@@ -1,4 +1,4 @@
-package dev.pavan.productservice.thirdpartyclients.productsservice.fakestore;
+package dev.pavan.productserviceawsdeployment.thirdpartyclients.productservice.fakestore;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

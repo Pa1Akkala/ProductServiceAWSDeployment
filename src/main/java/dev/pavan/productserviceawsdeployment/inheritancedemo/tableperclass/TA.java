@@ -1,4 +1,4 @@
-package dev.pavan.productservice.inheritancedemo.tableperclass;
+package dev.pavan.productserviceawsdeployment.inheritancedemo.tableperclass;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;

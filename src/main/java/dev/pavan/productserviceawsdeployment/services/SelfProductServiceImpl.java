@@ -1,7 +1,7 @@
-package dev.pavan.productservice.services;
+package dev.pavan.productserviceawsdeployment.services;
 
-import dev.pavan.productservice.dtos.GenericProductDto;
-import dev.pavan.productservice.repositories.ProductRepository;
+import dev.pavan.productserviceawsdeployment.dtos.GenericProductDto;
+import dev.pavan.productserviceawsdeployment.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

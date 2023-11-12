@@ -1,4 +1,4 @@
-package dev.pavan.productservice.controllers;
+package dev.pavan.productserviceawsdeployment.controllers;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

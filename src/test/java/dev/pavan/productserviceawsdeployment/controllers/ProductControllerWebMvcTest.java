@@ -1,8 +1,8 @@
-package dev.pavan.productservice.controllers;
+package dev.pavan.productserviceawsdeployment.controllers;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import dev.pavan.productservice.dtos.GenericProductDto;
-import dev.pavan.productservice.services.ProductService;
+import dev.pavan.productserviceawsdeployment.dtos.GenericProductDto;
+import dev.pavan.productserviceawsdeployment.services.ProductService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;

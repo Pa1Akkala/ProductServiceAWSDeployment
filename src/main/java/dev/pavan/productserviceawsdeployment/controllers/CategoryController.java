@@ -1,9 +1,9 @@
-package dev.pavan.productservice.controllers;
+package dev.pavan.productserviceawsdeployment.controllers;
 
-import dev.pavan.productservice.dtos.GetProductTitlesRequestDto;
-import dev.pavan.productservice.dtos.ProductDto;
-import dev.pavan.productservice.models.Product;
-import dev.pavan.productservice.services.CategoryService;
+import dev.pavan.productserviceawsdeployment.dtos.GetProductTitlesRequestDto;
+import dev.pavan.productserviceawsdeployment.dtos.ProductDto;
+import dev.pavan.productserviceawsdeployment.models.Product;
+import dev.pavan.productserviceawsdeployment.services.CategoryService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

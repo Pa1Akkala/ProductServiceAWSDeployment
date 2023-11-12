@@ -1,9 +1,9 @@
-package dev.pavan.productservice.services;
+package dev.pavan.productserviceawsdeployment.services;
 
-import dev.pavan.productservice.models.Category;
-import dev.pavan.productservice.models.Product;
-import dev.pavan.productservice.repositories.CategoryRepository;
-import dev.pavan.productservice.repositories.ProductRepository;
+import dev.pavan.productserviceawsdeployment.models.Category;
+import dev.pavan.productserviceawsdeployment.models.Product;
+import dev.pavan.productserviceawsdeployment.repositories.CategoryRepository;
+import dev.pavan.productserviceawsdeployment.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

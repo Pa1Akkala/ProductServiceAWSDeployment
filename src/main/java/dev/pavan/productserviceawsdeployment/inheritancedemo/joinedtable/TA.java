@@ -1,4 +1,4 @@
-package dev.pavan.productservice.inheritancedemo.joinedtable;
+package dev.pavan.productserviceawsdeployment.inheritancedemo.joinedtable;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.PrimaryKeyJoinColumn;

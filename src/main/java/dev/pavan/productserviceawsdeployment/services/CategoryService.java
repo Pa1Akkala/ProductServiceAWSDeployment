@@ -1,6 +1,6 @@
-package dev.pavan.productservice.services;
+package dev.pavan.productserviceawsdeployment.services;
 
-import dev.pavan.productservice.models.Category;
+import dev.pavan.productserviceawsdeployment.models.Category;
 
 import java.util.List;
 

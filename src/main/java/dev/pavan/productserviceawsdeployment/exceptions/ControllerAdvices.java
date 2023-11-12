@@ -1,4 +1,4 @@
-package dev.pavan.productservice.exceptions;
+package dev.pavan.productserviceawsdeployment.exceptions;
 
 import org.springframework.web.bind.annotation.ControllerAdvice;
 

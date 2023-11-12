@@ -1,4 +1,4 @@
-package dev.pavan.productservice.security;
+package dev.pavan.productserviceawsdeployment.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

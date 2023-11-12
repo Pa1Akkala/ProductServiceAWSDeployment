@@ -1,4 +1,4 @@
-package dev.pavan.productservice.security;
+package dev.pavan.productserviceawsdeployment.security;
 
 import lombok.Getter;
 import lombok.Setter;

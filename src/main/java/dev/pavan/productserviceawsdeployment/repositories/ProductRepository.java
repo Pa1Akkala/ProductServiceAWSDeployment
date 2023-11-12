@@ -1,7 +1,7 @@
-package dev.pavan.productservice.repositories;
+package dev.pavan.productserviceawsdeployment.repositories;
 
-import dev.pavan.productservice.models.Category;
-import dev.pavan.productservice.models.Product;
+import dev.pavan.productserviceawsdeployment.models.Category;
+import dev.pavan.productserviceawsdeployment.models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;

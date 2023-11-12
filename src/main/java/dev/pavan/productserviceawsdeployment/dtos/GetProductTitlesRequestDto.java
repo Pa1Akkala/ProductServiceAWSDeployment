@@ -1,4 +1,4 @@
-package dev.pavan.productservice.dtos;
+package dev.pavan.productserviceawsdeployment.dtos;
 
 import lombok.Getter;
 import lombok.Setter;

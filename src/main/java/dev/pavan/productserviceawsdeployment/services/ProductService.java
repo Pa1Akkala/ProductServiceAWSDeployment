@@ -1,7 +1,7 @@
-package dev.pavan.productservice.services;
+package dev.pavan.productserviceawsdeployment.services;
 
-import dev.pavan.productservice.dtos.GenericProductDto;
-import dev.pavan.productservice.exceptions.NotFoundException;
+import dev.pavan.productserviceawsdeployment.dtos.GenericProductDto;
+import dev.pavan.productserviceawsdeployment.exceptions.NotFoundException;
 
 import java.util.List;
 

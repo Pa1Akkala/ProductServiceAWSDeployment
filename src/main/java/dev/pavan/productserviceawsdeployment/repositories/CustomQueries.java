@@ -1,4 +1,4 @@
-package dev.pavan.productservice.repositories;
+package dev.pavan.productserviceawsdeployment.repositories;
 
 public interface CustomQueries {
     String FIND_ALL_BY_TITLE = "select * from product join product_orders " +

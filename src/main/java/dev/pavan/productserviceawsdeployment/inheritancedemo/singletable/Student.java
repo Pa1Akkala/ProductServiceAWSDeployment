@@ -1,4 +1,4 @@
-package dev.pavan.productservice.inheritancedemo.singletable;
+package dev.pavan.productserviceawsdeployment.inheritancedemo.singletable;
 
 import jakarta.persistence.DiscriminatorValue;
 import jakarta.persistence.Entity;

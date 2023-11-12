@@ -1,4 +1,4 @@
-package dev.pavan.productservice.inheritancedemo.mappedsuperclass;
+package dev.pavan.productserviceawsdeployment.inheritancedemo.mappedsuperclass;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;

@@ -1,7 +1,7 @@
-package dev.pavan.productservice.thirdpartyclients.productsservice.fakestore;
+package dev.pavan.productserviceawsdeployment.thirdpartyclients.productservice.fakestore;
 
-import dev.pavan.productservice.dtos.GenericProductDto;
-import dev.pavan.productservice.exceptions.NotFoundException;
+import dev.pavan.productserviceawsdeployment.dtos.GenericProductDto;
+import dev.pavan.productserviceawsdeployment.exceptions.NotFoundException;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.http.HttpMethod;
@@ -19,7 +19,7 @@ import java.util.List;
  * Wrapper over FakeStore API
  */
 @Service
-public class FakeStoryProductServiceClient {
+public class FakeStoreProductServiceClient {
     private RestTemplateBuilder restTemplateBuilder;
 
 
@@ -32,7 +32,7 @@ public class FakeStoryProductServiceClient {
     private String specificProductRequestUrl ;
     private String productRequestsBaseUrl ;
 
-    public FakeStoryProductServiceClient(RestTemplateBuilder restTemplateBuilder,
+    public FakeStoreProductServiceClient(RestTemplateBuilder restTemplateBuilder,
                                          @Value("${fakestore.api.url}") String fakeStoreApiUrl,
                                          @Value("${fakestore.api.paths.product}") String fakeStoreProductsApiPath) {
         this.restTemplateBuilder = restTemplateBuilder;

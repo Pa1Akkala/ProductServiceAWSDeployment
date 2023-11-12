@@ -1,4 +1,4 @@
-package dev.pavan.productservice.security;
+package dev.pavan.productserviceawsdeployment.security;
 
 import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
-package dev.pavan.productservice.dtos;
+package dev.pavan.productserviceawsdeployment.dtos;
 
-import dev.pavan.productservice.models.Price;
+import dev.pavan.productserviceawsdeployment.models.Price;
 import lombok.Getter;
 import lombok.Setter;
 

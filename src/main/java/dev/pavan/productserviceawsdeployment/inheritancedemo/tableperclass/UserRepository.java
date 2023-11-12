@@ -1,4 +1,4 @@
-package dev.pavan.productservice.inheritancedemo.tableperclass;
+package dev.pavan.productserviceawsdeployment.inheritancedemo.tableperclass;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

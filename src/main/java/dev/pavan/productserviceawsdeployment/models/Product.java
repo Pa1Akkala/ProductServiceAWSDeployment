@@ -1,4 +1,4 @@
-package dev.pavan.productservice.models;
+package dev.pavan.productserviceawsdeployment.models;
 
 import jakarta.persistence.*;
 import lombok.*;

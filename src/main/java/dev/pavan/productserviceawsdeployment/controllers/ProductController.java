@@ -1,9 +1,9 @@
-package dev.pavan.productservice.controllers;
+package dev.pavan.productserviceawsdeployment.controllers;
 
-import dev.pavan.productservice.dtos.GenericProductDto;
-import dev.pavan.productservice.exceptions.NotFoundException;
-import dev.pavan.productservice.security.TokenValidator;
-import dev.pavan.productservice.services.ProductService;
+import dev.pavan.productserviceawsdeployment.dtos.GenericProductDto;
+import dev.pavan.productserviceawsdeployment.exceptions.NotFoundException;
+import dev.pavan.productserviceawsdeployment.security.TokenValidator;
+import dev.pavan.productserviceawsdeployment.services.ProductService;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

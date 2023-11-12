@@ -1,6 +1,6 @@
-package dev.pavan.productservice.dtos;
+package dev.pavan.productserviceawsdeployment.dtos;
 
-import dev.pavan.productservice.security.JwtObject;
+import dev.pavan.productserviceawsdeployment.security.JwtObject;
 import lombok.Getter;
 import lombok.Setter;
 
