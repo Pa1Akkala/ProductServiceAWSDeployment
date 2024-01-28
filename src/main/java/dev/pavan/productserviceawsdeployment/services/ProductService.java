@@ -7,11 +7,26 @@ import java.util.List;
 
 public interface ProductService {
 
-    GenericProductDto createProduct(GenericProductDto product);
 
-    GenericProductDto getProductById(Long id) throws NotFoundException;
+    GenericProductDto getProductById(String uuid) throws NotFoundException;
+
+    GenericProductDto createProduct(GenericProductDto product);
 
     List<GenericProductDto> getAllProducts();
 
-   GenericProductDto deleteProduct(Long id);
+    GenericProductDto deleteProduct(String uuid) throws NotFoundException;
+
+    GenericProductDto updateProduct(String uuid,GenericProductDto product);
+
+    List<GenericProductDto> getAllProductsByCategory(String uuid);
+
+
+
+//    GenericProductDto createProduct(GenericProductDto product);
+//
+//    GenericProductDto getProductById(Long id) throws NotFoundException;
+//
+//    List<GenericProductDto> getAllProducts();
+//
+//   GenericProductDto deleteProduct(Long id);
 }

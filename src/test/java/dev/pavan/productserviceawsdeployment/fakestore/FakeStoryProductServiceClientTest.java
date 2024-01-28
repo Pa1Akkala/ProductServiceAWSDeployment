@@ -14,14 +14,14 @@ class FakeStoryProductServiceClientTest {
     @Autowired
     private RestTemplateBuilder restTemplateBuilder;
 
-    @Test
-    void testNonExistingProductReturnsNull() {
-//        RestTemplate restTemplate = restTemplateBuilder.build();
-//        ResponseEntity<FakeStoreProductDto> response =
-//                restTemplate.getForEntity(specificProductRequestUrl, FakeStoreProductDto.class, id);
-//
-//        FakeStoreProductDto fakeStoreProductDto = response.getBody();
-//
-//        assertNull(fakeStoreProductDto);
-    }
+//    @Test
+//    void testNonExistingProductReturnsNull() {
+////        RestTemplate restTemplate = restTemplateBuilder.build();
+////        ResponseEntity<FakeStoreProductDto> response =
+////                restTemplate.getForEntity(specificProductRequestUrl, FakeStoreProductDto.class, id);
+////
+////        FakeStoreProductDto fakeStoreProductDto = response.getBody();
+////
+////        assertNull(fakeStoreProductDto);
+//    }
 }

@@ -4,6 +4,7 @@ import dev.pavan.productserviceawsdeployment.dtos.GetProductTitlesRequestDto;
 import dev.pavan.productserviceawsdeployment.dtos.ProductDto;
 import dev.pavan.productserviceawsdeployment.models.Product;
 import dev.pavan.productserviceawsdeployment.services.CategoryService;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
@@ -14,7 +15,7 @@ import java.util.List;
 public class CategoryController {
     private CategoryService categoryService;
 
-    public CategoryController(CategoryService categoryService) {
+    public CategoryController(@Qualifier("selfCategoryServiceImpl") CategoryService categoryService) {
         this.categoryService = categoryService;
     }
 

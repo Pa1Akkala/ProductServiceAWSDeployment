@@ -12,8 +12,19 @@ import java.util.UUID;
 public interface CategoryRepository
 extends JpaRepository<Category, UUID> {
 
+
+    @Override
+    List<Category> findAll();
+
     Optional<Category> findById(UUID uuid);
 
     @Override
     List<Category> findAllById(Iterable<UUID> uuids);
+
+
+
+//    Optional<Category> findById(UUID uuid);
+//
+//    @Override
+//    List<Category> findAllById(Iterable<UUID> uuids);
 }

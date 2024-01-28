@@ -16,13 +16,21 @@ public class SpringSecurityConfig {
             throws Exception {
         http
                 .authorizeHttpRequests((authorize) -> authorize
-                        //.requestMatchers("/products").hasAuthority("admin")
+                       .requestMatchers("/products").hasAuthority("admin")
+                //                .requestMatchers("/products").hasAuthority("mentor")
+                                .requestMatchers("/products/{id}").authenticated()
                         .anyRequest().authenticated()
+
                 )
                 // Form login handles the redirect to the login page from the
                 // authorization server filter chain
                 .oauth2ResourceServer((oauth2) -> oauth2.jwt(Customizer.withDefaults()))
-                .formLogin(Customizer.withDefaults());
+                .oauth2ResourceServer((oauth2) -> oauth2.jwt(
+                        jwtConfigurer -> {
+                            jwtConfigurer.jwtAuthenticationConverter(new CustomJwtAuthenticationConverter());
+                        }
+               // .formLogin(Customizer.withDefaults());
+                ));
 
         return http.build();
     }

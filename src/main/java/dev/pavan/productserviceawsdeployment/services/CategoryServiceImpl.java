@@ -1,5 +1,6 @@
 package dev.pavan.productserviceawsdeployment.services;
 
+import dev.pavan.productserviceawsdeployment.dtos.GenericCategoryDto;
 import dev.pavan.productserviceawsdeployment.models.Category;
 import dev.pavan.productserviceawsdeployment.models.Product;
 import dev.pavan.productserviceawsdeployment.repositories.CategoryRepository;
@@ -13,6 +14,8 @@ import java.util.UUID;
 
 @Service
 public class CategoryServiceImpl implements CategoryService {
+
+
     private CategoryRepository categoryRepository;
     private final ProductRepository productRepository;
 
@@ -20,6 +23,26 @@ public class CategoryServiceImpl implements CategoryService {
                                ProductRepository productRepository) {
         this.categoryRepository = categoryRepository;
         this.productRepository = productRepository;
+    }
+
+    public List<GenericCategoryDto> getAllCategories(){
+//        List<Category> categories = categoryRepository.findAll();
+//
+//        List<GenericCategoryDto> genericCategoryDtos = new ArrayList<>();
+//
+//        categories.forEach(
+//                category -> {
+//                    genericCategoryDtos.add(
+//                            new GenericCategoryDto(
+//                                    category.getUuid().toString(),
+//                                    category.getTitle()
+//                            )
+//                    );
+//                }
+//        );
+//
+//        return genericCategoryDtos;
+        return null;
     }
 
     @Override
